@@ -2,8 +2,8 @@
 ![redbluesec preview](redbluesec.jpg)
 
 <p align="center">
-  <strong>Red & Blue Team Cyber Security Suite – Overpower Edition</strong><br>
-  <em>"Master both sides of the cyber battlefield." – Mr.X</em>
+  <strong>Red & Blue Team Cyber Security Suite â€“ Overpower Edition</strong><br>
+  <em>"Master both sides of the cyber battlefield." â€“ Mr.X</em>
 </p>
 
 ## Introduction
@@ -25,30 +25,30 @@ $ python3 redblue.py
 ```
 
 ## Features
-- **40 Powerful Features** – 20 Red Team attack tools + 20 Blue Team defense tools.
-- **Global Target Scope** – Set target once (feature 41), all tools auto-use it.
-- **Stealth Mode** – Toggle user-agent spoofing and minimal logging.
-- **C2 Listener & Webhook** – Advanced reverse shell handler with interactive sessions, file upload/download.
-- **Payload Generator** – 8 formats: PowerShell, Bash, Python, PHP, Msfvenom, Macro, C binary, Web shell.
-- **Brute Forcer** – SSH, FTP, HTTP Basic, MySQL, PostgreSQL + custom wordlist generator.
-- **Web Vulnerability Scanner** – XSS, SQLi, LFI detection on forms and URLs.
-- **Phishing Cloner** – Clone login pages and capture credentials via HTTP server.
-- **Stresser/DDoS Tester** – HTTP GET/POST flood, Slowloris, Random UA flood.
-- **Network Recon** – Port scanner, subdomain scanner, ping sweep, DNS lookup, reverse IP, CMS detector.
-- **Hash Cracker** – MD5, SHA1, SHA256, SHA512 dictionary attacks.
-- **Log Analysis** – Integrity checker, sanitizer, parser/formatter, entropy analyzer.
-- **Asset Inventory** – SQLite-backed asset management with network discovery.
-- **Credential Manager** – Encrypted vault for storing credentials.
-- **Incident Response Playbook** – Interactive step-by-step IR guide.
-- **Security Auditing** – Security headers checker, file permissions, SSL/TLS analyzer.
-- **System Tools** – System info, network interface, latency monitor, process list, connectivity tester.
-- **Decoder/Encoder** – Base64, Hex, URL, HTML, JWT, GZIP, ROT13, XOR, MD5, SHA256, auto-detect.
-- **Plugin Manager** – Load and create custom Python plugins.
-- **Auto-Config** – Installs required Termux packages and Python libraries.
-- **Cyberpunk UI** – Neon colors, ASCII art, loading animation, quick start guide.
-- **Termux Optimized** – No root required, fully functional on Android.
+- **40 Powerful Features** â€“ 20 Red Team attack tools + 20 Blue Team defense tools.
+- **Global Target Scope** â€“ Set target once (feature 41), all tools auto-use it.
+- **Stealth Mode** â€“ Toggle user-agent spoofing and minimal logging.
+- **C2 Listener & Webhook** â€“ Advanced reverse shell handler with interactive sessions, file upload/download.
+- **Payload Generator** â€“ 8 formats: PowerShell, Bash, Python, PHP, Msfvenom, Macro, C binary, Web shell.
+- **Brute Forcer** â€“ SSH, FTP, HTTP Basic, MySQL, PostgreSQL + custom wordlist generator.
+- **Web Vulnerability Scanner** â€“ XSS, SQLi, LFI detection on forms and URLs.
+- **Phishing Cloner** â€“ Clone login pages and capture credentials via HTTP server.
+- **Stresser/DDoS Tester** â€“ HTTP GET/POST flood, Slowloris, Random UA flood.
+- **Network Recon** â€“ Port scanner, subdomain scanner, ping sweep, DNS lookup, reverse IP, CMS detector.
+- **Hash Cracker** â€“ MD5, SHA1, SHA256, SHA512 dictionary attacks.
+- **Log Analysis** â€“ Integrity checker, sanitizer, parser/formatter, entropy analyzer.
+- **Asset Inventory** â€“ SQLite-backed asset management with network discovery.
+- **Credential Manager** â€“ Encrypted vault for storing credentials.
+- **Incident Response Playbook** â€“ Interactive step-by-step IR guide.
+- **Security Auditing** â€“ Security headers checker, file permissions, SSL/TLS analyzer.
+- **System Tools** â€“ System info, network interface, latency monitor, process list, connectivity tester.
+- **Decoder/Encoder** â€“ Base64, Hex, URL, HTML, JWT, GZIP, ROT13, XOR, MD5, SHA256, auto-detect.
+- **Plugin Manager** â€“ Load and create custom Python plugins.
+- **Auto-Config** â€“ Installs required Termux packages and Python libraries.
+- **Cyberpunk UI** â€“ Neon colors, ASCII art, loading animation, quick start guide.
+- **Termux Optimized** â€“ No root required, fully functional on Android.
 
-## Red Team Features (1–20)
+## Red Team Features (1â€“20)
 | #  | Feature | Description |
 |----|---------|-------------|
 | 1  | C2 Listener | Reverse shell handler with interactive sessions |
@@ -72,7 +72,7 @@ $ python3 redblue.py
 | 19 | CMS Detector | WordPress, Joomla, Drupal, Magento |
 | 20 | Email Harvester | Extract emails from web pages |
 
-## Blue Team Features (21–40)
+## Blue Team Features (21â€“40)
 | #  | Feature | Description |
 |----|---------|-------------|
 | 21 | Decoder/Encoder | 11 encoding/decoding operations |
@@ -98,20 +98,20 @@ $ python3 redblue.py
 
 ## Menu Options
 After running the tool, you will see the main menu with options `1` through `41`:
-- **Options 1–20** – Red Team features
-- **Options 21–40** – Blue Team features
-- **Option 41** – Set Target (global target for all tools)
-- **Option 0** – Exit
+- **Options 1â€“20** â€“ Red Team features
+- **Options 21â€“40** â€“ Blue Team features
+- **Option 41** â€“ Set Target (global target for all tools)
+- **Option 0** â€“ Exit
 
 ## Instructions
 1. **Install** the tool using the commands above.
 2. **Run** `python3 redblue.py` to start.
-3. **Set a target** – Use option `41` to configure a global target. All tools will automatically use it.
-4. **Toggle stealth mode** – Use option `2` to enable user-agent spoofing and minimal logging.
-5. **Run Red Team tools** – Select options `1` through `20` for attacks and exploitation.
-6. **Run Blue Team tools** – Select options `21` through `40` for defense and analysis.
-7. **Auto-configure** – Use option `34` to install required Termux packages and Python libraries.
-8. **Exit** – Use option `0` or press Ctrl+C anytime.
+3. **Set a target** â€“ Use option `41` to configure a global target. All tools will automatically use it.
+4. **Toggle stealth mode** â€“ Use option `2` to enable user-agent spoofing and minimal logging.
+5. **Run Red Team tools** â€“ Select options `1` through `20` for attacks and exploitation.
+6. **Run Blue Team tools** â€“ Select options `21` through `40` for defense and analysis.
+7. **Auto-configure** â€“ Use option `34` to install required Termux packages and Python libraries.
+8. **Exit** â€“ Use option `0` or press Ctrl+C anytime.
 
 ## Observation
 This tool is intended for **educational and authorized security testing purposes only**. Unauthorized use against systems you do not own or have explicit permission to test is illegal. The author assumes no responsibility for misuse or damage caused by this tool. Always obtain written permission before conducting any security assessment. Use responsibly and ethically.
@@ -123,13 +123,13 @@ This tool is intended for **educational and authorized security testing purposes
 
 ## CONNECT WITH ME :
 
-[![Website](https://img.shields.io/badge/WEBSITE-VISIT-red?style=for-the-badge&logo=blogger)](https://whomrx.pages.dev)
-[![Blog](https://img.shields.io/badge/BLOG-VISIT-red?style=for-the-badge&logo=blogger)](https://whomrxhackers.blogspot.com)
-[![Twitter](https://img.shields.io/badge/TWITTER-FOLLOW-red?style=for-the-badge&logo=x)](https://twitter.com/whomrx666)
-[![WhatsApp](https://img.shields.io/badge/WHATSAPP-CHATME-red?style=for-the-badge&logo=whatsapp)](https://wa.me/6285926601133?text=Halo%2C%20Mr.X)
-[![Facebook](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://www.facebook.com/whomrx.666)
-[![Telegram](https://img.shields.io/badge/TELEGRAM-CONNECT-red?style=for-the-badge&logo=telegram)](https://t.me/Whomr_X)
-[![Gmail](https://img.shields.io/badge/GMAIL-CONTACT-red?style=for-the-badge&logo=gmail)](mailto:whomrx666@gmail.com)
+[![Website](https://img.shields.io/badge/WEBSITE-VISIT-red?style=for-the-badge&logo=googlechrome)](https://whomrx.pages.dev) <br>
+[![Blog](https://img.shields.io/badge/BLOG-VISIT-red?style=for-the-badge&logo=blogger)](https://whomrxhackers.blogspot.com) <br>
+[![Twitter](https://img.shields.io/badge/TWITTER-FOLLOW-red?style=for-the-badge&logo=x)](https://twitter.com/whomrx666) <br>
+[![WhatsApp](https://img.shields.io/badge/WHATSAPP-CHATME-red?style=for-the-badge&logo=whatsapp)](https://wa.me/6285926601133?text=Halo%2C%20Mr.X) <br>
+[![Facebook](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://www.facebook.com/whomrx.666) <br>
+[![Telegram](https://img.shields.io/badge/TELEGRAM-CONNECT-red?style=for-the-badge&logo=telegram)](https://t.me/Whomr_X) <br>
+[![Gmail](https://img.shields.io/badge/GMAIL-CONTACT-red?style=for-the-badge&logo=gmail)](mailto:whomrx666@gmail.com) <br>
 [![TikTok](https://img.shields.io/badge/TIKTOK-FOLLOW-red?style=for-the-badge&logo=tiktok)](https://www.tiktok.com/@whomr.x)
 
 **If you want to donate, click on the button**
